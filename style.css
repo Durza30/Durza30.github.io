@@ -10,16 +10,29 @@ body {
   margin: 10% 20%
 }
 
-.first{
+div.first{
+  text-align: left;
+}
+ul.first{
   float: left;
 }
 
-.second{
+div.second{
+  text-align: center;
+}
+ul.second{
   float: left;
+  display: inline-block;
+  text-align: left;
 }
 
-.third{
+div.third{
+  text-align: right;
+}
+ul.third{
   float: left;
+  display: inline-block;
+  text-align: left;
 }
 
 .exp-header{
