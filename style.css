@@ -10,6 +10,11 @@ body {
   margin: 10% 20%
 }
 
+div.first, div.second, div.third{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 div.first{
   text-align: left;
 }
