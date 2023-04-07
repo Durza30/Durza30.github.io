@@ -10,20 +10,23 @@ body {
   margin: 10% 20%
 }
 
+.first{
+  float: left;
+}
+
+.second{
+  float: left;
+}
+
+.third{
+  float: left;
+}
+
 .exp-header{
   text-align: center;
   text-transform: uppercase;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
-  background-color: rgba(0,0,0, 0.1)
-}
-
-.first{
-  text-align: left;
-}
-
-.second{
-  text-align: center;
-
-  list-style-position: inside;
+  background-color: rgba(0,0,0, 0.1);
+    clear: left
 }
