@@ -1,41 +1,49 @@
 header {
   text-align: center;
   font-weight: bold;
+  border: 1px solid #5555;
+  border-color: white
 }
 
 body {
   background-color: #444444;
   color: #dddddd;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 10% 20%
+  margin: 10% 10%;
+  border: 1px solid
 }
 
-div.first, div.second, div.third{
-  margin-left: 20px;
-  margin-right: 20px;
+div.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+    background-color: DodgerBlue;
 }
 
 div.first{
-  text-align: left;
+  text-align: left;  
 }
+
 ul.first{
-  float: left;
+  display: inline-block;
+  text-align: left;
 }
 
 div.second{
-  text-align: center;
+    text-align: center;
 }
+
 ul.second{
-  float: left;
   display: inline-block;
   text-align: left;
 }
 
 div.third{
   text-align: right;
+  align-content: right;
 }
+
 ul.third{
-  float: left;
   display: inline-block;
   text-align: left;
 }
@@ -45,6 +53,41 @@ ul.third{
   text-transform: uppercase;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
-  background-color: rgba(0,0,0, 0.1);
-    clear: left
+  background-color: rgba(0,0,0,0.1);
+}
+
+button.current-job{
+  cursor: pointer;
+}
+
+div.current-job{
+
+}
+
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
 }
