@@ -1,24 +1,25 @@
 header {
   text-align: center;
   font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
   border: 1px solid #5555;
   border-color: white
 }
 
 body {
-  background-color: #444444;
-  color: #dddddd;
+  background-color: #111;
+  color: #ddd;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10% 10%;
-  border: 1px solid
+  border: 1px solid #5555;
+  border-color: white
 }
 
 div.flex{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
+  margin-right: 5%;
 }
 
 div.first{
@@ -49,16 +50,26 @@ ul.third{
   text-align: left;
 }
 
+div.experience{
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #5555;
+  border-color: white
+}
+
 button.current-job{
   cursor: pointer;
   background-color: #eee;
   color: #444;
-  padding: 18px;
   width: 100%;
-  border: none;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border: 1%;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .active, .current-job:hover {
@@ -69,12 +80,14 @@ button.previous-job{
   cursor: pointer;
   background-color: #eee;
   color: #444;
-  padding: 18px;
   width: 100%;
-  border: none;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border: 1%;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .active, .previous-job:hover {
@@ -85,12 +98,14 @@ button.previous-job2{
   cursor: pointer;
   background-color: #eee;
   color: #444;
-  padding: 18px;
   width: 100%;
-  border: none;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border: 1%;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .active, .previous-job2:hover {
@@ -101,12 +116,14 @@ button.previous-job3{
   cursor: pointer;
   background-color: #eee;
   color: #444;
-  padding: 18px;
   width: 100%;
-  border: none;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border: 1%;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .active, .previous-job3:hover {
@@ -117,12 +134,14 @@ button.previous-job4{
   cursor: pointer;
   background-color: #eee;
   color: #444;
-  padding: 18px;
   width: 100%;
-  border: none;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border: 1%;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .active, .previous-job4:hover {
@@ -133,72 +152,22 @@ button.previous-job5{
   cursor: pointer;
   background-color: #eee;
   color: #444;
-  padding: 18px;
   width: 100%;
-  border: none;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border: 1%;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .active, .previous-job5:hover {
   background-color: #ccc;
 }
-ul.second{
-  display: inline-block;
-  text-align: left;
-}
 
-div.third{
-  text-align: right;
-  align-content: right;
-}
-
-ul.third{
-  display: inline-block;
-  text-align: left;
-}
-
-.exp-header{
+div.education-header{
   text-align: center;
-  text-transform: uppercase;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
-  background-color: rgba(0,0,0,0.1);
-}
-
-button.current-job{
-  cursor: pointer;
-}
-
-div.current-job{
-
-}
-
-
-
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  background-color: #ccc;
-}
-
-/* Style the collapsible content. Note: hidden by default */
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
+  border: 1px solid #5555;
+  border-color: white;  
 }
